@@ -1,3 +1,5 @@
+Project in ZICO, 깃허브 연동 중
+
 구글 검색창 > 아나콘다 install
 
 아나콘다 실행 > 주피터 노트북 install

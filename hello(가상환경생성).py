@@ -1,0 +1,30 @@
+구글 검색창 > 아나콘다 install
+
+아나콘다 실행 > 주피터 노트북 install
+
+구글 검색창 > vscode install
+
+vscode 실행 > EXTENSIONS menu > 파이썬, 주피터 install
+
+Open Folder menu > 본인 코드 저장할 새 폴더 만들기(menu 열자마자 나오는 기본 경로에 만드는 것 추천)
+
+anaconda prompt 실행(vscode에서 여는 거 아님) or vscode에서 new terminal (powershell 말고 cmd로...?) 열기
+
+콘솔창에 가상 환경 생성 코드 작성
+> conda create -n 환경명 python=버전
+환경명은 본인이 생성할 가상 환경 이름(ex. ZICO)
+버전은 콘솔창에서 파이썬 버전 확인(확인 코드: python --version)
+
+가상 환경 실행 코드
+> conda activate 환경명
+
+코드 입력창 맨앞에 (환경명) 뜨면 가상 환경 실행 완료
+안 되면 코드 입력창 맨앞에 (base) 실행 안 됐는지 확인 (되어 있어야 함)
+
+~ 내가 만든 새 폴더 안에 New File을 생성해 보자 ~
+
+Open Folder > New File menu 찾아서 실행 > jupyter notebook으로 열기
+> print("hello world") 실행 > 본인이 만든 가상 환경 선택 > Ctrl + S (저장 단축키) > hello.ipynb 이름으로 저장
+아까 만든 새 폴더 안에 hello.ipynb 파일 생성되었는지 확인
+
+맥과 윈도우 환경 차이로 menu 위치 등 조금씩 다를 수 있음 각종 오류는 구글링/gpt 하시길 . . .
